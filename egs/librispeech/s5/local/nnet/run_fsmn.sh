@@ -21,7 +21,7 @@ if [ $stage -le 0 ]; then
                                    --gmm $gmm \
                                    --num-threads-ubm 6 --num-processes 3 \
                                    --nnet3-affix "$nnet3_affix" || exit 1;
-then
+fi
 
 ##Make fbank features
 if [ $stage -le 1 ]; then
